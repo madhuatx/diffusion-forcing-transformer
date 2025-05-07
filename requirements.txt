@@ -1,4 +1,4 @@
-numpy~=1.0
+numpy
 torch
 torchvision
 wandb
@@ -23,7 +23,7 @@ scipy
 rotary_embedding_torch
 torchmetrics[image]==0.11.4
 tfrecord[torch]
-bezier
+bezier==2024.6.20
 timm
 zmq
 openai-clip

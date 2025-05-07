@@ -35,6 +35,6 @@ class RealEstate10KMiniAdvancedVideoDataset(RealEstate10KAdvancedVideoDataset):
         download_and_extract_archive(
             self._DATASET_URL,
             self.save_dir.parent,
-            remove_finished=True,
+            remove_finished=False,
         )
         print(cyan("Finished downloading RealEstate10k Mini dataset!"))
