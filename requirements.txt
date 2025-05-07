@@ -27,7 +27,7 @@ bezier==2024.6.20
 timm
 zmq
 openai-clip
-pyiqa==0.1.10
+pyiqa==0.1.13
 easydict
 zmq
 pytubefix
